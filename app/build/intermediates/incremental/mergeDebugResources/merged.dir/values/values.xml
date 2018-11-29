@@ -703,6 +703,7 @@
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
+    <item name="action_order" type="id">"Order"</item>
     <item name="editText_main" type="id"/>
     <item name="ghost_view" type="id"/>
     <item name="home" type="id"/>
@@ -769,7 +770,12 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="action_contact_message">You selected Contact.</string>
+    <string name="action_favorite_message">You selected Favorites.</string>
+    <string name="action_favorites_message"/>
+    <string name="action_order_message">You selected Order. </string>
     <string name="action_settings">Settings</string>
+    <string name="action_status_message">You selected status</string>
     <string name="address_label_text">Address</string>
     <string name="app_name">Droid Cafe</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
@@ -815,7 +821,7 @@
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
     </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        
+
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
